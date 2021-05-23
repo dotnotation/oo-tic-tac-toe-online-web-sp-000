@@ -38,5 +38,14 @@ class TicTacToe
     @board.count{|token| token == "X" || token == "O"}
   end
 
+  def turn
+    #ask for move position 1-9
+    #receive user input
+    #input to index
+    #move is valid
+    #make move
+    #display_board
+    #if invalid ask for new move
+  end
 
 end
