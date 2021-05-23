@@ -39,12 +39,12 @@ class TicTacToe
   end
 
   def turn
-    #ask for move position 1-9
-    #receive user input
-    #input to index
-    #move is valid
-    #make move
-    #display_board
+    puts "Please enter 1-9:" #ask for move position 1-9
+    input = gets.strip #receive user input
+    input_to_index(user_input) #input to index
+    valid_move?(index) #move is valid
+    move #make move
+    display_board #display_board
     #if invalid ask for new move
   end
 
