@@ -45,7 +45,9 @@ class TicTacToe
     if valid_move?(index) #move is valid
       move(index, current_player) #make move
       display_board #display_board
-    #if invalid ask for new move
+    else
+      turn #if invalid ask for new move
+    end
   end
 
 end
