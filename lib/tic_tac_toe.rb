@@ -51,6 +51,6 @@ class TicTacToe
   end
   
   def won?
-    
+    WIN_COMBINATIONS.detect 
 
 end
