@@ -49,5 +49,8 @@ class TicTacToe
       turn #if invalid ask for new move
     end
   end
+  
+  def won?
+    
 
 end
