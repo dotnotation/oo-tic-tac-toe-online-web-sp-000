@@ -51,6 +51,7 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.detect 
+    WIN_COMBINATIONS.detect do |combo|
+      
 
 end
