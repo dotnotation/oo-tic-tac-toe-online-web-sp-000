@@ -67,4 +67,9 @@ class TicTacToe
   def over?
     won? || full? || draw?
   end
+  
+  def winner
+    if won?
+      @board[won?]
+  end
 end
